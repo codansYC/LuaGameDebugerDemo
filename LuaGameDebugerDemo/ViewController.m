@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Client.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+
+- (IBAction)connect:(id)sender {
+    [[Client sharedClient] connect];
+}
+- (IBAction)login:(id)sender {
+    [[Client sharedClient] login];
+}
+- (IBAction)send:(id)sender {
+    [[Client sharedClient] sendMsg:@""];
+}
+- (IBAction)disconnect:(id)sender {
+    [[Client sharedClient] disconnect];
 }
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DACDB0FBC7236EA8C21E205 /* libPods-LuaGameDebugerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DCD1BA55DAF8DC36396697 /* libPods-LuaGameDebugerDemo.a */; };
 		422B08372286D55000B5CFCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 422B08362286D55000B5CFCA /* AppDelegate.m */; };
 		422B083A2286D55000B5CFCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422B08392286D55000B5CFCA /* ViewController.m */; };
 		422B083D2286D55000B5CFCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422B083B2286D55000B5CFCA /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		422B08452286D55100B5CFCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 422B08442286D55100B5CFCA /* main.m */; };
 		422B084F2286D55100B5CFCA /* LuaGameDebugerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 422B084E2286D55100B5CFCA /* LuaGameDebugerDemoTests.m */; };
 		422B085A2286D55100B5CFCA /* LuaGameDebugerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 422B08592286D55100B5CFCA /* LuaGameDebugerDemoUITests.m */; };
+		422B08692286D5F500B5CFCA /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 422B08682286D5F500B5CFCA /* Client.m */; };
+		6D2E98719F5E8640FA5048ED /* libPods-LuaGameDebugerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A21F8EBCDE7E0404C2D7E71B /* libPods-LuaGameDebugerDemoUITests.a */; };
+		E3845A3E4E35FB1A565D1E2A /* libPods-LuaGameDebugerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5930C0E133C22C416F65B5 /* libPods-LuaGameDebugerDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06009B0CC8D6CAAEA356DD63 /* Pods-LuaGameDebugerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuaGameDebugerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuaGameDebugerDemoUITests/Pods-LuaGameDebugerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		422B08322286D55000B5CFCA /* LuaGameDebugerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuaGameDebugerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		422B08352286D55000B5CFCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		422B08362286D55000B5CFCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,16 @@
 		422B08552286D55100B5CFCA /* LuaGameDebugerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuaGameDebugerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		422B08592286D55100B5CFCA /* LuaGameDebugerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuaGameDebugerDemoUITests.m; sourceTree = "<group>"; };
 		422B085B2286D55100B5CFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422B08672286D5F500B5CFCA /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		422B08682286D5F500B5CFCA /* Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		4AFFCFE5578C2BC7C6BFA630 /* Pods-LuaGameDebugerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuaGameDebugerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuaGameDebugerDemoUITests/Pods-LuaGameDebugerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E5930C0E133C22C416F65B5 /* libPods-LuaGameDebugerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuaGameDebugerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F1DC4197F3E150C386989AA /* Pods-LuaGameDebugerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuaGameDebugerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuaGameDebugerDemoTests/Pods-LuaGameDebugerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A21F8EBCDE7E0404C2D7E71B /* libPods-LuaGameDebugerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuaGameDebugerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DCD1BA55DAF8DC36396697 /* libPods-LuaGameDebugerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuaGameDebugerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CFACDA97161CE3083189B6 /* Pods-LuaGameDebugerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuaGameDebugerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuaGameDebugerDemoTests/Pods-LuaGameDebugerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E16C8B37C497287D8FA4927F /* Pods-LuaGameDebugerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuaGameDebugerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuaGameDebugerDemo/Pods-LuaGameDebugerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F03615F7CBB08434C517DFEE /* Pods-LuaGameDebugerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuaGameDebugerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuaGameDebugerDemo/Pods-LuaGameDebugerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DACDB0FBC7236EA8C21E205 /* libPods-LuaGameDebugerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3845A3E4E35FB1A565D1E2A /* libPods-LuaGameDebugerDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D2E98719F5E8640FA5048ED /* libPods-LuaGameDebugerDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				422B084D2286D55100B5CFCA /* LuaGameDebugerDemoTests */,
 				422B08582286D55100B5CFCA /* LuaGameDebugerDemoUITests */,
 				422B08332286D55000B5CFCA /* Products */,
+				E263B5AFBA3994962A2DC473 /* Pods */,
+				723CCACF80F28B14C5E9D13A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +130,8 @@
 				422B08402286D55100B5CFCA /* LaunchScreen.storyboard */,
 				422B08432286D55100B5CFCA /* Info.plist */,
 				422B08442286D55100B5CFCA /* main.m */,
+				422B08672286D5F500B5CFCA /* Client.h */,
+				422B08682286D5F500B5CFCA /* Client.m */,
 			);
 			path = LuaGameDebugerDemo;
 			sourceTree = "<group>";
@@ -132,6 +154,29 @@
 			path = LuaGameDebugerDemoUITests;
 			sourceTree = "<group>";
 		};
+		723CCACF80F28B14C5E9D13A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3DCD1BA55DAF8DC36396697 /* libPods-LuaGameDebugerDemo.a */,
+				6E5930C0E133C22C416F65B5 /* libPods-LuaGameDebugerDemoTests.a */,
+				A21F8EBCDE7E0404C2D7E71B /* libPods-LuaGameDebugerDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E263B5AFBA3994962A2DC473 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E16C8B37C497287D8FA4927F /* Pods-LuaGameDebugerDemo.debug.xcconfig */,
+				F03615F7CBB08434C517DFEE /* Pods-LuaGameDebugerDemo.release.xcconfig */,
+				A6CFACDA97161CE3083189B6 /* Pods-LuaGameDebugerDemoTests.debug.xcconfig */,
+				6F1DC4197F3E150C386989AA /* Pods-LuaGameDebugerDemoTests.release.xcconfig */,
+				06009B0CC8D6CAAEA356DD63 /* Pods-LuaGameDebugerDemoUITests.debug.xcconfig */,
+				4AFFCFE5578C2BC7C6BFA630 /* Pods-LuaGameDebugerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422B085E2286D55200B5CFCA /* Build configuration list for PBXNativeTarget "LuaGameDebugerDemo" */;
 			buildPhases = (
+				1623F1AE88DF07F4D1DF11A1 /* [CP] Check Pods Manifest.lock */,
 				422B082E2286D55000B5CFCA /* Sources */,
 				422B082F2286D55000B5CFCA /* Frameworks */,
 				422B08302286D55000B5CFCA /* Resources */,
@@ -156,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422B08612286D55200B5CFCA /* Build configuration list for PBXNativeTarget "LuaGameDebugerDemoTests" */;
 			buildPhases = (
+				BEEFCAADE1C34BE109A16061 /* [CP] Check Pods Manifest.lock */,
 				422B08462286D55100B5CFCA /* Sources */,
 				422B08472286D55100B5CFCA /* Frameworks */,
 				422B08482286D55100B5CFCA /* Resources */,
@@ -174,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422B08642286D55200B5CFCA /* Build configuration list for PBXNativeTarget "LuaGameDebugerDemoUITests" */;
 			buildPhases = (
+				7AD6A39D99C888F2D8013E27 /* [CP] Check Pods Manifest.lock */,
 				422B08512286D55100B5CFCA /* Sources */,
 				422B08522286D55100B5CFCA /* Frameworks */,
 				422B08532286D55100B5CFCA /* Resources */,
@@ -257,6 +305,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1623F1AE88DF07F4D1DF11A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuaGameDebugerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD6A39D99C888F2D8013E27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuaGameDebugerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEEFCAADE1C34BE109A16061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuaGameDebugerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		422B082E2286D55000B5CFCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +369,7 @@
 			files = (
 				422B083A2286D55000B5CFCA /* ViewController.m in Sources */,
 				422B08452286D55100B5CFCA /* main.m in Sources */,
+				422B08692286D5F500B5CFCA /* Client.m in Sources */,
 				422B08372286D55000B5CFCA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,11 +539,13 @@
 		};
 		422B085F2286D55200B5CFCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16C8B37C497287D8FA4927F /* Pods-LuaGameDebugerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86U6748KYN;
 				INFOPLIST_FILE = LuaGameDebugerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +558,13 @@
 		};
 		422B08602286D55200B5CFCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03615F7CBB08434C517DFEE /* Pods-LuaGameDebugerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86U6748KYN;
 				INFOPLIST_FILE = LuaGameDebugerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +577,7 @@
 		};
 		422B08622286D55200B5CFCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CFACDA97161CE3083189B6 /* Pods-LuaGameDebugerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +597,7 @@
 		};
 		422B08632286D55200B5CFCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1DC4197F3E150C386989AA /* Pods-LuaGameDebugerDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +617,7 @@
 		};
 		422B08652286D55200B5CFCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06009B0CC8D6CAAEA356DD63 /* Pods-LuaGameDebugerDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86U6748KYN;
@@ -523,6 +636,7 @@
 		};
 		422B08662286D55200B5CFCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFFCFE5578C2BC7C6BFA630 /* Pods-LuaGameDebugerDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 86U6748KYN;
