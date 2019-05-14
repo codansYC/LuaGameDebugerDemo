@@ -36,7 +36,7 @@
 
 - (BOOL)connect {
     NSError *error;
-    [self.socket connectToHost:@"192.168.199.129" onPort:8090 error:&error];
+    [self.socket connectToHost:@"172.16.232.68" onPort:8090 error:&error];
     
     if (error) {
         NSLog(@"连接失败：%@", error.localizedDescription);
@@ -51,17 +51,34 @@
     NSString *loginInfo = @"iam:I am login!";
     NSData *loginData = [loginInfo dataUsingEncoding: NSUTF8StringEncoding];
     //发送登录指令。-1表示不超时。tag200表示这个指令的标识，很大用处
-    [self.socket writeData: loginData withTimeout:-1 tag:200];
+    [self.socket writeData:loginData withTimeout:-1 tag:201];
 }
 
 - (void)sendMsg:(NSString *)msg {
-    NSString *sendMsg = @"msg:I send message to u!";
-    NSData *sendData = [sendMsg dataUsingEncoding: NSUTF8StringEncoding];
+    NSData *sendData = [msg dataUsingEncoding: NSUTF8StringEncoding];
     [self.socket writeData:sendData withTimeout:-1 tag:201];
 }
 
 - (void)disconnect {
     [self.socket disconnectAfterReadingAndWriting];
+}
+
+#pragma GCDAsyncSocketDelegate
+- (void)socket:(GCDAsyncSocket *)sock didReadData:(NSData *)data withTag:(long)tag {
+    NSString *info = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    NSLog(@"didReadData:%@",info);
+    [self sendMsg:@"config"];
+    [sock readDataWithTimeout:-1 tag:tag];
+}
+
+- (void)socket:(GCDAsyncSocket *)sock didWriteDataWithTag:(long)tag {
+    NSLog(@"didWriteDataWithTag:%ld",tag);
+    [sock readDataWithTimeout:-1 tag:tag];
+}
+
+- (void)socket:(GCDAsyncSocket *)sock didConnectToHost:(NSString *)host port:(uint16_t)port {
+    NSLog(@"didConnectToHost:%@ port=%d",host, port);
+    [sock readDataWithTimeout:-1 tag:200];
 }
 
 @end
