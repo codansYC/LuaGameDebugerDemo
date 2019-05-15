@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (Client *)sharedClient;
 
-- (BOOL)connect;
+- (void)connect;
 
 - (void)login;
 

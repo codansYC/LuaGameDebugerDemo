@@ -8,6 +8,14 @@
 
 #import "Client.h"
 #import "GCDAsyncSocket.h"
+#import "IMMsgModel.h"
+#import "YYModel.h"
+
+typedef NS_ENUM(NSUInteger, Command) {
+    CommandArchive = 100,
+    CommandLog     = 101,
+    CommandAllFile = 102,
+};
 
 @interface Client ()<GCDAsyncSocketDelegate>
 
@@ -34,17 +42,9 @@
     return self;
 }
 
-- (BOOL)connect {
+- (void)connect {
     NSError *error;
     [self.socket connectToHost:@"172.16.232.68" onPort:8090 error:&error];
-    
-    if (error) {
-        NSLog(@"连接失败：%@", error.localizedDescription);
-    } else {
-        NSLog(@"连接成功");
-    }
-    
-    return !error;
 }
 
 - (void)login {
@@ -65,9 +65,8 @@
 
 #pragma GCDAsyncSocketDelegate
 - (void)socket:(GCDAsyncSocket *)sock didReadData:(NSData *)data withTag:(long)tag {
-    NSString *info = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-    NSLog(@"didReadData:%@",info);
-    [self sendMsg:@"config"];
+    NSLog(@"didReadData");
+    [self handleReceivedPacket:data];
     [sock readDataWithTimeout:-1 tag:tag];
 }
 
@@ -79,6 +78,40 @@
 - (void)socket:(GCDAsyncSocket *)sock didConnectToHost:(NSString *)host port:(uint16_t)port {
     NSLog(@"didConnectToHost:%@ port=%d",host, port);
     [sock readDataWithTimeout:-1 tag:200];
+}
+
+- (void)handleReceivedPacket:(NSData *)data {
+    IMMsgModel *msgModel = [IMMsgModel yy_modelWithJSON:data];
+    Command command = msgModel.eventId;
+    NSString *dataStr = msgModel.data;
+    switch (command) {
+        case CommandArchive:
+        {
+            NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:[dataStr  dataUsingEncoding:NSUTF8StringEncoding]  options:NSJSONReadingAllowFragments error:nil];
+            NSString *allFileJson = [self getAllFileJson:dict];
+            IMMsgModel *msgModel = [IMMsgModel new];
+            msgModel.eventId = CommandAllFile;
+            msgModel.data = allFileJson;
+            [self sendMsg:[msgModel yy_modelToJSONString]];
+        }
+            break;
+        default:
+            break;
+    }
+    
+    
+    
+}
+
+- (NSString *)getAllFileJson:(NSDictionary *)dict {
+    NSString *rootPath = [NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES).firstObject stringByAppendingPathComponent:@"LuaGame"];
+    BOOL isDir;
+    if (![[NSFileManager defaultManager] fileExistsAtPath:rootPath isDirectory:&isDir] || !isDir) {
+        [[NSFileManager defaultManager] createDirectoryAtPath:rootPath withIntermediateDirectories:NO attributes:nil error:nil];
+        return @"";
+    }
+    
+    return @"";
 }
 
 @end

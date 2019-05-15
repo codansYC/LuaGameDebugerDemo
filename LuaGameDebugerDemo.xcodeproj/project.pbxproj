@@ -17,6 +17,7 @@
 		422B084F2286D55100B5CFCA /* LuaGameDebugerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 422B084E2286D55100B5CFCA /* LuaGameDebugerDemoTests.m */; };
 		422B085A2286D55100B5CFCA /* LuaGameDebugerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 422B08592286D55100B5CFCA /* LuaGameDebugerDemoUITests.m */; };
 		422B08692286D5F500B5CFCA /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 422B08682286D5F500B5CFCA /* Client.m */; };
+		424200EE228BAE3100EB42CD /* IMMsgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 424200ED228BAE3100EB42CD /* IMMsgModel.m */; };
 		6D2E98719F5E8640FA5048ED /* libPods-LuaGameDebugerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A21F8EBCDE7E0404C2D7E71B /* libPods-LuaGameDebugerDemoUITests.a */; };
 		E3845A3E4E35FB1A565D1E2A /* libPods-LuaGameDebugerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5930C0E133C22C416F65B5 /* libPods-LuaGameDebugerDemoTests.a */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,8 @@
 		422B085B2286D55100B5CFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		422B08672286D5F500B5CFCA /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
 		422B08682286D5F500B5CFCA /* Client.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		424200EC228BAE3100EB42CD /* IMMsgModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMMsgModel.h; sourceTree = "<group>"; };
+		424200ED228BAE3100EB42CD /* IMMsgModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMMsgModel.m; sourceTree = "<group>"; };
 		4AFFCFE5578C2BC7C6BFA630 /* Pods-LuaGameDebugerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuaGameDebugerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuaGameDebugerDemoUITests/Pods-LuaGameDebugerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6E5930C0E133C22C416F65B5 /* libPods-LuaGameDebugerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuaGameDebugerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F1DC4197F3E150C386989AA /* Pods-LuaGameDebugerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuaGameDebugerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuaGameDebugerDemoTests/Pods-LuaGameDebugerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				422B08362286D55000B5CFCA /* AppDelegate.m */,
 				422B08382286D55000B5CFCA /* ViewController.h */,
 				422B08392286D55000B5CFCA /* ViewController.m */,
+				424200EC228BAE3100EB42CD /* IMMsgModel.h */,
+				424200ED228BAE3100EB42CD /* IMMsgModel.m */,
 				422B083B2286D55000B5CFCA /* Main.storyboard */,
 				422B083E2286D55100B5CFCA /* Assets.xcassets */,
 				422B08402286D55100B5CFCA /* LaunchScreen.storyboard */,
@@ -367,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424200EE228BAE3100EB42CD /* IMMsgModel.m in Sources */,
 				422B083A2286D55000B5CFCA /* ViewController.m in Sources */,
 				422B08452286D55100B5CFCA /* main.m in Sources */,
 				422B08692286D5F500B5CFCA /* Client.m in Sources */,

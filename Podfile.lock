@@ -1,16 +1,20 @@
 PODS:
   - CocoaAsyncSocket (7.6.3)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - CocoaAsyncSocket
+  - YYModel
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CocoaAsyncSocket
+    - YYModel
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 5f3d297e96aa688de6f5d685541f03ebb3187437
+PODFILE CHECKSUM: f2c97236b0b2473ef96b6330e29e989c57af1274
 
 COCOAPODS: 1.5.3

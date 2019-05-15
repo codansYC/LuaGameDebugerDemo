@@ -7,6 +7,8 @@ target 'LuaGameDebugerDemo' do
 
   # Pods for LuaGameDebugerDemo
   pod 'CocoaAsyncSocket'
+  pod 'YYModel'
+  pod 'SSZipArchive'
   
   target 'LuaGameDebugerDemoTests' do
     inherit! :search_paths

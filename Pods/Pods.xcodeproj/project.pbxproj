@@ -7,149 +7,223 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5445B897FA3DC81DABEDF9719FBC0E8F /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D97519150E3FB738C45DD7374A3A7547 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6BC1596461C8CB422D9628255D01ACC6 /* Pods-LuaGameDebugerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 176816F1FD995BC608D39357565F17D0 /* Pods-LuaGameDebugerDemo-dummy.m */; };
-		73504EFB00C61CA1236EFD92ED072B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
-		841B8CE13BB1CBD6958BE652700DBFD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
-		8C2AA75767896A0A1A7F2650D0DA7497 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8F6920618F2ACA1826979AC75B3CC3 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		917937E55910DE94D992127ED2D0138D /* Pods-LuaGameDebugerDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27601F3C6783D9A4503D047F27E6F0E0 /* Pods-LuaGameDebugerDemoTests-dummy.m */; };
-		ABFAD23BA6072516D52DFFEA6A992A18 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BBF63D2966C31F097C33847D3242CD /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D767B9BB23B505A9A31BDC4B3CE1813C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
-		DDD59E4506F7C10A836F0C544A7B9613 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
-		E1D3558E80197D62084FD585403BAFA3 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8EC5FC186DEE56138FBAEEE8562D6 /* CocoaAsyncSocket-dummy.m */; };
-		E575FA89B3D3BDAD4ECB70F7281DEA6A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */; };
-		F6FF78434042C2A8ABADEDE0E9D45431 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */; };
-		F8ADF01AC1F57249492905309CE8B97B /* Pods-LuaGameDebugerDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F7A1412E4641E5CCD5E3C1779C901 /* Pods-LuaGameDebugerDemoUITests-dummy.m */; };
-		F8D9132F177A854B89D7521AAD050907 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AD3EE19AFF2A54B3552A4B5DD2EE86 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14718060ADB658CAC75876E44FBFE0CE /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C161C08AA821103541CF71645974342 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3598675CB73B25ACE7038365EFB7DE06 /* Pods-LuaGameDebugerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 176816F1FD995BC608D39357565F17D0 /* Pods-LuaGameDebugerDemo-dummy.m */; };
+		39DCD535269ADA59F61388140EE796BA /* Pods-LuaGameDebugerDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27601F3C6783D9A4503D047F27E6F0E0 /* Pods-LuaGameDebugerDemoTests-dummy.m */; };
+		3B21BC4DB82C214BD63FF3901D1A195D /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 153DAA70096399959C9F5A5917F51C1E /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		530A089330DCB715F99962AE0975DF98 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9324A06E9BCCC3551CA60CC062621CC4 /* YYModel-dummy.m */; };
+		5E25A78915562868167A900EF1E082B6 /* Pods-LuaGameDebugerDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7F7A1412E4641E5CCD5E3C1779C901 /* Pods-LuaGameDebugerDemoUITests-dummy.m */; };
+		654623E110BED69CA401895A7AC6F959 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3319F61D9EDDDAB35E25D4D8B7DFC6AF /* CoreFoundation.framework */; };
+		659DD90C84DAE90C7A599A9049B1A0B3 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5225A2320D106D79C1A9C46C7DE621 /* YYClassInfo.m */; };
+		665620CC5E02E468734C20413978402D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F49CAB4835405A9262D7EBFBFD1C59B /* CFNetwork.framework */; };
+		7DB5CD2E405F55BB309ADCCEE94F46CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCC7CDE67E5BC568D86FD2BDCA9F581 /* Security.framework */; };
+		857C5FA7DED530A806AD739849BFDBD8 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA62DF5C118F45701DA7C3A80882E9D /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C1379884F0AE169C294340985C3EFAE /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DB9204505261B5E07B758A7918CD9D /* CocoaAsyncSocket-dummy.m */; };
+		A1648307E2F11786107AEB76EC5B39C2 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD8DF54F39D210F3868A41863CFB1D3 /* YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0BE0A3CBAA603080C8981F69756EBF9 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C89EFDCFFBE130AE5AD86854612349F /* NSObject+YYModel.m */; };
+		B1E2531B3A8F9E30A2A37778FE2FCD3D /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7D6B94230785E9A27D2FAAA640EE47 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBFCB4B1409B0C1CC36DD4E912C00F95 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F60DD4013AE2B9EE5462442503AC4FE9 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BFF6B02F93F1ECEEE3B0DDEF1EF3DDE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C60A3D545B3E40BDF857769512802B /* Foundation.framework */; };
+		D382985154BD7F05B0C6A6D459E3D118 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9049E6614CFEE2AFB948C21D6CC1EDF5 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		231A45800E83381E3EB20D2327B8E0FA /* PBXContainerItemProxy */ = {
+		476F889C2A16B7F4933EEB28B6EB5293 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 23D7DA26C40DEA0CBB49A7825C7CD4F1;
+			remoteGlobalIDString = 8128A44AB077AE2F0C1EEAA983D5271D;
 			remoteInfo = CocoaAsyncSocket;
 		};
-		873FA6BBC7F11E07894E789DC374115F /* PBXContainerItemProxy */ = {
+		72A218CB96A84F3161118645DF8ACF0F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0AFCF295FDE46798DC8CAA92C73EC188;
+			remoteGlobalIDString = B488456BB5AD545A0F8761AA3712C2F4;
+			remoteInfo = YYModel;
+		};
+		B53307FF4115C9847049F31BC0B05F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C29BF29F2883A1C0472397A63FDA25;
 			remoteInfo = "Pods-LuaGameDebugerDemo";
 		};
-		D9CAC0F6DEC6A41FB8BB71A108521DDD /* PBXContainerItemProxy */ = {
+		F36CB58124D7E625D8E9C4E08577FA37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0AFCF295FDE46798DC8CAA92C73EC188;
+			remoteGlobalIDString = 49C29BF29F2883A1C0472397A63FDA25;
 			remoteInfo = "Pods-LuaGameDebugerDemo";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0048C768DD87594AC903E717668D7567 /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
 		0089B3581C14348D0FB34BEC007E7818 /* Pods-LuaGameDebugerDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuaGameDebugerDemoTests-frameworks.sh"; sourceTree = "<group>"; };
 		08345A4D8094791FC8547AEA35B9CCC3 /* Pods-LuaGameDebugerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuaGameDebugerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C161C08AA821103541CF71645974342 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
+		153DAA70096399959C9F5A5917F51C1E /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		176816F1FD995BC608D39357565F17D0 /* Pods-LuaGameDebugerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuaGameDebugerDemo-dummy.m"; sourceTree = "<group>"; };
-		1E2CC7FB8FFA7B29C30ADFFDADCFCBB6 /* libPods-LuaGameDebugerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LuaGameDebugerDemoUITests.a"; path = "libPods-LuaGameDebugerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5225A2320D106D79C1A9C46C7DE621 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
 		1E48374517991B715FA00AE07D18001B /* Pods-LuaGameDebugerDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuaGameDebugerDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E7D6B94230785E9A27D2FAAA640EE47 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
 		257051194E88BB386C337E2F04844208 /* Pods-LuaGameDebugerDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuaGameDebugerDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		27601F3C6783D9A4503D047F27E6F0E0 /* Pods-LuaGameDebugerDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuaGameDebugerDemoTests-dummy.m"; sourceTree = "<group>"; };
 		28C214E727773423C6B53B2AF3491812 /* Pods-LuaGameDebugerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuaGameDebugerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		2AABF8ECF224EA952E1F2F2AB1B9406E /* Pods-LuaGameDebugerDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuaGameDebugerDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3319F61D9EDDDAB35E25D4D8B7DFC6AF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		33DB9204505261B5E07B758A7918CD9D /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		3FCBDFE59B4556E8D31B13FA43E8E67E /* libPods-LuaGameDebugerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LuaGameDebugerDemoTests.a"; path = "libPods-LuaGameDebugerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4466FDAADC187BCB6A9DEBCD3BF72C14 /* Pods-LuaGameDebugerDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuaGameDebugerDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		48AD3EE19AFF2A54B3552A4B5DD2EE86 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		4D8F6920618F2ACA1826979AC75B3CC3 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		46C60A3D545B3E40BDF857769512802B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4750B734DBE91D8FE6BD830FF669449B /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCocoaAsyncSocket.a; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC54F531B99E64E843B600DCE2A049A /* Pods-LuaGameDebugerDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuaGameDebugerDemoTests-resources.sh"; sourceTree = "<group>"; };
-		50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		6CAE778DE88456578027B270B0515A1A /* libPods-LuaGameDebugerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LuaGameDebugerDemo.a"; path = "libPods-LuaGameDebugerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCC7CDE67E5BC568D86FD2BDCA9F581 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		6EF50DBC1CDD031DA85867CC6C85E1F7 /* Pods-LuaGameDebugerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuaGameDebugerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72161CD3141C1EE54B352089249D690E /* libPods-LuaGameDebugerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LuaGameDebugerDemoUITests.a"; path = "libPods-LuaGameDebugerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7744AD90F0454727EC52C70AC0A01A1C /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		7C89EFDCFFBE130AE5AD86854612349F /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
 		7CA64E1B3DD8C4A3D0713476AA45A0D0 /* Pods-LuaGameDebugerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuaGameDebugerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7CF15505A3D99A3420FA3BF3FAB7399C /* Pods-LuaGameDebugerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuaGameDebugerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F7BA3AC6F966F8148F66A07E49A1262 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
-		8AB8EC5FC186DEE56138FBAEEE8562D6 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
 		8C7F7A1412E4641E5CCD5E3C1779C901 /* Pods-LuaGameDebugerDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LuaGameDebugerDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		8F49CAB4835405A9262D7EBFBFD1C59B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		9049E6614CFEE2AFB948C21D6CC1EDF5 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		9324A06E9BCCC3551CA60CC062621CC4 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
 		933427117087A158EAC499E0D87C2FC1 /* Pods-LuaGameDebugerDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LuaGameDebugerDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97BF8EBCF1F911867F270AD9A47E9CF4 /* libPods-LuaGameDebugerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LuaGameDebugerDemoTests.a"; path = "libPods-LuaGameDebugerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		AA16E2490FAEAE6B0C2F586AFB43CD7F /* Pods-LuaGameDebugerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LuaGameDebugerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEA62DF5C118F45701DA7C3A80882E9D /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
 		B14993DB7EF2D11D7C06D893F2F3D1E3 /* Pods-LuaGameDebugerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuaGameDebugerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B3A52AA7EAE6379CD3FFA5D7F44E8A13 /* Pods-LuaGameDebugerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LuaGameDebugerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BDBC39F55B0C776EAC5D2668DBE0387D /* Pods-LuaGameDebugerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuaGameDebugerDemo-resources.sh"; sourceTree = "<group>"; };
-		CAF124E066F487E9DFB054B9B8D26022 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
-		D97519150E3FB738C45DD7374A3A7547 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
-		E572268FE6B6EB4B8914639CC7BE838C /* libCocoaAsyncSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCocoaAsyncSocket.a; path = libCocoaAsyncSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6BBF63D2966C31F097C33847D3242CD /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		BDD8DF54F39D210F3868A41863CFB1D3 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		C4B4D983642EE9DE6CDC63B4F7D85709 /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		CDF05ED729FC0370529E67EB0961EE11 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		E91CCAFF7898A4CD88B9A3DD4B618DC9 /* libYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYModel.a; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC88320C7E58672A95C17AFEBC5C608 /* Pods-LuaGameDebugerDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuaGameDebugerDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		EDF035E4396531B965042A520186F239 /* libPods-LuaGameDebugerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LuaGameDebugerDemo.a"; path = "libPods-LuaGameDebugerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AE9410A0483673CECD6F8C43A41224 /* Pods-LuaGameDebugerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LuaGameDebugerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		F60DD4013AE2B9EE5462442503AC4FE9 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E3A1E3318BEDF784EF8D17BF8B74355 /* Frameworks */ = {
+		6716E44F46E5C9CEA53F9A9289AFC28A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D767B9BB23B505A9A31BDC4B3CE1813C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B6A1E9CF2056E33B13056BDA546B887 /* Frameworks */ = {
+		B13CF54E89EEB8B66096604DCF598479 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E575FA89B3D3BDAD4ECB70F7281DEA6A /* CFNetwork.framework in Frameworks */,
-				841B8CE13BB1CBD6958BE652700DBFD0 /* Foundation.framework in Frameworks */,
-				F6FF78434042C2A8ABADEDE0E9D45431 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9D7ACCFBD90CC4E8C0D38186AB86187 /* Frameworks */ = {
+		B3AF4F4B504F51F4642EFDB706106F9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDD59E4506F7C10A836F0C544A7B9613 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E108B5C6170C649A31E44895F77C4209 /* Frameworks */ = {
+		B3C0B3656203D61325CB17DB786C6F4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73504EFB00C61CA1236EFD92ED072B5E /* Foundation.framework in Frameworks */,
+				654623E110BED69CA401895A7AC6F959 /* CoreFoundation.framework in Frameworks */,
+				BFF6B02F93F1ECEEE3B0DDEF1EF3DDE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB754822840FF9BF7DDF2B1A9D4AA5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665620CC5E02E468734C20413978402D /* CFNetwork.framework in Frameworks */,
+				7DB5CD2E405F55BB309ADCCEE94F46CD /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		0B7CE35D9696900EB7EC4A9FF0E62C47 /* YYModel */ = {
 			isa = PBXGroup;
 			children = (
-				D6D888213905F34217EF1880BE2758BA /* iOS */,
+				1E7D6B94230785E9A27D2FAAA640EE47 /* NSObject+YYModel.h */,
+				7C89EFDCFFBE130AE5AD86854612349F /* NSObject+YYModel.m */,
+				0C161C08AA821103541CF71645974342 /* YYClassInfo.h */,
+				1D5225A2320D106D79C1A9C46C7DE621 /* YYClassInfo.m */,
+				BDD8DF54F39D210F3868A41863CFB1D3 /* YYModel.h */,
+				30CF65A91E300A2F91EACB010B259EF2 /* Support Files */,
+			);
+			name = YYModel;
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		0CC81B0FC5D741A724AFCA55F6EDEDEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				101B9E3DDAFF122E30FCE959617D5C60 /* CocoaAsyncSocket */,
+				0B7CE35D9696900EB7EC4A9FF0E62C47 /* YYModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		101B9E3DDAFF122E30FCE959617D5C60 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				AEA62DF5C118F45701DA7C3A80882E9D /* GCDAsyncSocket.h */,
+				9049E6614CFEE2AFB948C21D6CC1EDF5 /* GCDAsyncSocket.m */,
+				153DAA70096399959C9F5A5917F51C1E /* GCDAsyncUdpSocket.h */,
+				F60DD4013AE2B9EE5462442503AC4FE9 /* GCDAsyncUdpSocket.m */,
+				9B6A6B35F1747D87467E5B1E2F642F51 /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4309C347BB20EF2AFA00C5742F942F1E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1314C80681543B1114D4C3340817386C /* Support Files */ = {
+		30CF65A91E300A2F91EACB010B259EF2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7F7BA3AC6F966F8148F66A07E49A1262 /* CocoaAsyncSocket.xcconfig */,
-				8AB8EC5FC186DEE56138FBAEEE8562D6 /* CocoaAsyncSocket-dummy.m */,
-				CAF124E066F487E9DFB054B9B8D26022 /* CocoaAsyncSocket-prefix.pch */,
+				0048C768DD87594AC903E717668D7567 /* YYModel.xcconfig */,
+				9324A06E9BCCC3551CA60CC062621CC4 /* YYModel-dummy.m */,
+				C4B4D983642EE9DE6CDC63B4F7D85709 /* YYModel-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CocoaAsyncSocket";
+			path = "../Target Support Files/YYModel";
 			sourceTree = "<group>";
 		};
-		1A31066AFE670FCCAC543DE56DDB0E72 /* Products */ = {
+		4309C347BB20EF2AFA00C5742F942F1E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E572268FE6B6EB4B8914639CC7BE838C /* libCocoaAsyncSocket.a */,
-				6CAE778DE88456578027B270B0515A1A /* libPods-LuaGameDebugerDemo.a */,
-				97BF8EBCF1F911867F270AD9A47E9CF4 /* libPods-LuaGameDebugerDemoTests.a */,
-				1E2CC7FB8FFA7B29C30ADFFDADCFCBB6 /* libPods-LuaGameDebugerDemoUITests.a */,
+				8F49CAB4835405A9262D7EBFBFD1C59B /* CFNetwork.framework */,
+				3319F61D9EDDDAB35E25D4D8B7DFC6AF /* CoreFoundation.framework */,
+				46C60A3D545B3E40BDF857769512802B /* Foundation.framework */,
+				5CCC7CDE67E5BC568D86FD2BDCA9F581 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		55662F04348CEB55190A5330C77E30C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4750B734DBE91D8FE6BD830FF669449B /* libCocoaAsyncSocket.a */,
+				EDF035E4396531B965042A520186F239 /* libPods-LuaGameDebugerDemo.a */,
+				3FCBDFE59B4556E8D31B13FA43E8E67E /* libPods-LuaGameDebugerDemoTests.a */,
+				72161CD3141C1EE54B352089249D690E /* libPods-LuaGameDebugerDemoUITests.a */,
+				E91CCAFF7898A4CD88B9A3DD4B618DC9 /* libYYModel.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,9 +232,9 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				991819176034B11A99ECC53C250D06AD /* Pods */,
-				1A31066AFE670FCCAC543DE56DDB0E72 /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				0CC81B0FC5D741A724AFCA55F6EDEDEE /* Pods */,
+				55662F04348CEB55190A5330C77E30C9 /* Products */,
 				A9E1350071F9B3377155DA656F75CC80 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -180,25 +254,15 @@
 			path = "Target Support Files/Pods-LuaGameDebugerDemo";
 			sourceTree = "<group>";
 		};
-		8530783150D3FA666EEE18D39CA2D32A /* CocoaAsyncSocket */ = {
+		9B6A6B35F1747D87467E5B1E2F642F51 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				48AD3EE19AFF2A54B3552A4B5DD2EE86 /* GCDAsyncSocket.h */,
-				D97519150E3FB738C45DD7374A3A7547 /* GCDAsyncSocket.m */,
-				4D8F6920618F2ACA1826979AC75B3CC3 /* GCDAsyncUdpSocket.h */,
-				E6BBF63D2966C31F097C33847D3242CD /* GCDAsyncUdpSocket.m */,
-				1314C80681543B1114D4C3340817386C /* Support Files */,
+				7744AD90F0454727EC52C70AC0A01A1C /* CocoaAsyncSocket.xcconfig */,
+				33DB9204505261B5E07B758A7918CD9D /* CocoaAsyncSocket-dummy.m */,
+				CDF05ED729FC0370529E67EB0961EE11 /* CocoaAsyncSocket-prefix.pch */,
 			);
-			name = CocoaAsyncSocket;
-			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
-		};
-		991819176034B11A99ECC53C250D06AD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8530783150D3FA666EEE18D39CA2D32A /* CocoaAsyncSocket */,
-			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
 			sourceTree = "<group>";
 		};
 		A3D544E661ECD556D60D629C46BDA962 /* Pods-LuaGameDebugerDemoUITests */ = {
@@ -241,72 +305,90 @@
 			path = "Target Support Files/Pods-LuaGameDebugerDemoTests";
 			sourceTree = "<group>";
 		};
-		D6D888213905F34217EF1880BE2758BA /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */,
-				9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */,
-				50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		165848F5DE5F442CA17F98266BF22055 /* Headers */ = {
+		708DC42023012F31460C08DFAC56F3A7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D9132F177A854B89D7521AAD050907 /* GCDAsyncSocket.h in Headers */,
-				8C2AA75767896A0A1A7F2650D0DA7497 /* GCDAsyncUdpSocket.h in Headers */,
+				B1E2531B3A8F9E30A2A37778FE2FCD3D /* NSObject+YYModel.h in Headers */,
+				14718060ADB658CAC75876E44FBFE0CE /* YYClassInfo.h in Headers */,
+				A1648307E2F11786107AEB76EC5B39C2 /* YYModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79EF2704DA761A33139332D4D433DC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857C5FA7DED530A806AD739849BFDBD8 /* GCDAsyncSocket.h in Headers */,
+				3B21BC4DB82C214BD63FF3901D1A195D /* GCDAsyncUdpSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0AFCF295FDE46798DC8CAA92C73EC188 /* Pods-LuaGameDebugerDemo */ = {
+		0D0EEBE52D1D25D4056B5E95C0246281 /* Pods-LuaGameDebugerDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50E8A7C4E48EB95AB7EA537AD4160F18 /* Build configuration list for PBXNativeTarget "Pods-LuaGameDebugerDemo" */;
+			buildConfigurationList = 1AC3BC967CFF967AE8F47105A9EE50F8 /* Build configuration list for PBXNativeTarget "Pods-LuaGameDebugerDemoTests" */;
 			buildPhases = (
-				0ED933C62F3D71E20883B8E07071267B /* Sources */,
-				0E3A1E3318BEDF784EF8D17BF8B74355 /* Frameworks */,
+				125BB8B1CDB13A3C3BF8E97F3752D5A1 /* Sources */,
+				B3AF4F4B504F51F4642EFDB706106F9A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A1B3AB6370AFACCE78DF8E2526FE6713 /* PBXTargetDependency */,
+				9B1FC335562D93587FDF588E5B8FD8A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-LuaGameDebugerDemoTests";
+			productName = "Pods-LuaGameDebugerDemoTests";
+			productReference = 3FCBDFE59B4556E8D31B13FA43E8E67E /* libPods-LuaGameDebugerDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		49C29BF29F2883A1C0472397A63FDA25 /* Pods-LuaGameDebugerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED894191F1AC0659DB1E481396A53D3 /* Build configuration list for PBXNativeTarget "Pods-LuaGameDebugerDemo" */;
+			buildPhases = (
+				DC502D816BF3600747DA1FE7318FB110 /* Sources */,
+				B13CF54E89EEB8B66096604DCF598479 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0CFEAF591B3A91E378CD844F855CE80 /* PBXTargetDependency */,
+				193E9175490E914B8BA598B571786EE4 /* PBXTargetDependency */,
 			);
 			name = "Pods-LuaGameDebugerDemo";
 			productName = "Pods-LuaGameDebugerDemo";
-			productReference = 6CAE778DE88456578027B270B0515A1A /* libPods-LuaGameDebugerDemo.a */;
+			productReference = EDF035E4396531B965042A520186F239 /* libPods-LuaGameDebugerDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		13FE4C87911BD159EC554DFEDA779999 /* Pods-LuaGameDebugerDemoUITests */ = {
+		7028D3F08B39DF3E00E0CB0E1F1AFB1D /* Pods-LuaGameDebugerDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DC188728344830FDEE496E313B75E77 /* Build configuration list for PBXNativeTarget "Pods-LuaGameDebugerDemoUITests" */;
+			buildConfigurationList = 0446DC5DABC74256F3062BC130B78B00 /* Build configuration list for PBXNativeTarget "Pods-LuaGameDebugerDemoUITests" */;
 			buildPhases = (
-				617D65E0CB7ADA07F0873D83DEEC9596 /* Sources */,
-				D9D7ACCFBD90CC4E8C0D38186AB86187 /* Frameworks */,
+				50128ECA6ECF3F2464EE4BDEE03667F4 /* Sources */,
+				6716E44F46E5C9CEA53F9A9289AFC28A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D88A4D9F7A22F426641AE251E36AE30B /* PBXTargetDependency */,
+				C6B8C9F89B3E1C2AD8A7CBF0F4D814FB /* PBXTargetDependency */,
 			);
 			name = "Pods-LuaGameDebugerDemoUITests";
 			productName = "Pods-LuaGameDebugerDemoUITests";
-			productReference = 1E2CC7FB8FFA7B29C30ADFFDADCFCBB6 /* libPods-LuaGameDebugerDemoUITests.a */;
+			productReference = 72161CD3141C1EE54B352089249D690E /* libPods-LuaGameDebugerDemoUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		23D7DA26C40DEA0CBB49A7825C7CD4F1 /* CocoaAsyncSocket */ = {
+		8128A44AB077AE2F0C1EEAA983D5271D /* CocoaAsyncSocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E720E377F01A6230162E58B96EA78A5 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildConfigurationList = 1BC5203DF0C452999525B2D824F560A0 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
 			buildPhases = (
-				52BF12F835BDA1CD2787DA3488AC6DA7 /* Sources */,
-				2B6A1E9CF2056E33B13056BDA546B887 /* Frameworks */,
-				165848F5DE5F442CA17F98266BF22055 /* Headers */,
+				BE5C7E75873CFE7C39B685266F6B30F0 /* Sources */,
+				DB754822840FF9BF7DDF2B1A9D4AA5BF /* Frameworks */,
+				D79EF2704DA761A33139332D4D433DC0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -314,24 +396,24 @@
 			);
 			name = CocoaAsyncSocket;
 			productName = CocoaAsyncSocket;
-			productReference = E572268FE6B6EB4B8914639CC7BE838C /* libCocoaAsyncSocket.a */;
+			productReference = 4750B734DBE91D8FE6BD830FF669449B /* libCocoaAsyncSocket.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A522A544E4DC310D8E7BEEF07B0F62E6 /* Pods-LuaGameDebugerDemoTests */ = {
+		B488456BB5AD545A0F8761AA3712C2F4 /* YYModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B83103939487A11644726FCC793EEA8F /* Build configuration list for PBXNativeTarget "Pods-LuaGameDebugerDemoTests" */;
+			buildConfigurationList = A5D24E1154DBD6A252BE7A2F4E8E402A /* Build configuration list for PBXNativeTarget "YYModel" */;
 			buildPhases = (
-				7B86BA8105FE02EB4960FACE3E2F952D /* Sources */,
-				E108B5C6170C649A31E44895F77C4209 /* Frameworks */,
+				D3F7A5F3E1B142D37DD975BB8C8B7F7D /* Sources */,
+				B3C0B3656203D61325CB17DB786C6F4E /* Frameworks */,
+				708DC42023012F31460C08DFAC56F3A7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E2738C9C6AB9404281FC0219188A3F4D /* PBXTargetDependency */,
 			);
-			name = "Pods-LuaGameDebugerDemoTests";
-			productName = "Pods-LuaGameDebugerDemoTests";
-			productReference = 97BF8EBCF1F911867F270AD9A47E9CF4 /* libPods-LuaGameDebugerDemoTests.a */;
+			name = YYModel;
+			productName = YYModel;
+			productReference = E91CCAFF7898A4CD88B9A3DD4B618DC9 /* libYYModel.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -351,160 +433,97 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1A31066AFE670FCCAC543DE56DDB0E72 /* Products */;
+			productRefGroup = 55662F04348CEB55190A5330C77E30C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23D7DA26C40DEA0CBB49A7825C7CD4F1 /* CocoaAsyncSocket */,
-				0AFCF295FDE46798DC8CAA92C73EC188 /* Pods-LuaGameDebugerDemo */,
-				A522A544E4DC310D8E7BEEF07B0F62E6 /* Pods-LuaGameDebugerDemoTests */,
-				13FE4C87911BD159EC554DFEDA779999 /* Pods-LuaGameDebugerDemoUITests */,
+				8128A44AB077AE2F0C1EEAA983D5271D /* CocoaAsyncSocket */,
+				49C29BF29F2883A1C0472397A63FDA25 /* Pods-LuaGameDebugerDemo */,
+				0D0EEBE52D1D25D4056B5E95C0246281 /* Pods-LuaGameDebugerDemoTests */,
+				7028D3F08B39DF3E00E0CB0E1F1AFB1D /* Pods-LuaGameDebugerDemoUITests */,
+				B488456BB5AD545A0F8761AA3712C2F4 /* YYModel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0ED933C62F3D71E20883B8E07071267B /* Sources */ = {
+		125BB8B1CDB13A3C3BF8E97F3752D5A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BC1596461C8CB422D9628255D01ACC6 /* Pods-LuaGameDebugerDemo-dummy.m in Sources */,
+				39DCD535269ADA59F61388140EE796BA /* Pods-LuaGameDebugerDemoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52BF12F835BDA1CD2787DA3488AC6DA7 /* Sources */ = {
+		50128ECA6ECF3F2464EE4BDEE03667F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1D3558E80197D62084FD585403BAFA3 /* CocoaAsyncSocket-dummy.m in Sources */,
-				5445B897FA3DC81DABEDF9719FBC0E8F /* GCDAsyncSocket.m in Sources */,
-				ABFAD23BA6072516D52DFFEA6A992A18 /* GCDAsyncUdpSocket.m in Sources */,
+				5E25A78915562868167A900EF1E082B6 /* Pods-LuaGameDebugerDemoUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		617D65E0CB7ADA07F0873D83DEEC9596 /* Sources */ = {
+		BE5C7E75873CFE7C39B685266F6B30F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8ADF01AC1F57249492905309CE8B97B /* Pods-LuaGameDebugerDemoUITests-dummy.m in Sources */,
+				8C1379884F0AE169C294340985C3EFAE /* CocoaAsyncSocket-dummy.m in Sources */,
+				D382985154BD7F05B0C6A6D459E3D118 /* GCDAsyncSocket.m in Sources */,
+				BBFCB4B1409B0C1CC36DD4E912C00F95 /* GCDAsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B86BA8105FE02EB4960FACE3E2F952D /* Sources */ = {
+		D3F7A5F3E1B142D37DD975BB8C8B7F7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				917937E55910DE94D992127ED2D0138D /* Pods-LuaGameDebugerDemoTests-dummy.m in Sources */,
+				B0BE0A3CBAA603080C8981F69756EBF9 /* NSObject+YYModel.m in Sources */,
+				659DD90C84DAE90C7A599A9049B1A0B3 /* YYClassInfo.m in Sources */,
+				530A089330DCB715F99962AE0975DF98 /* YYModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC502D816BF3600747DA1FE7318FB110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3598675CB73B25ACE7038365EFB7DE06 /* Pods-LuaGameDebugerDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A1B3AB6370AFACCE78DF8E2526FE6713 /* PBXTargetDependency */ = {
+		193E9175490E914B8BA598B571786EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = B488456BB5AD545A0F8761AA3712C2F4 /* YYModel */;
+			targetProxy = 72A218CB96A84F3161118645DF8ACF0F /* PBXContainerItemProxy */;
+		};
+		9B1FC335562D93587FDF588E5B8FD8A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LuaGameDebugerDemo";
+			target = 49C29BF29F2883A1C0472397A63FDA25 /* Pods-LuaGameDebugerDemo */;
+			targetProxy = B53307FF4115C9847049F31BC0B05F55 /* PBXContainerItemProxy */;
+		};
+		C6B8C9F89B3E1C2AD8A7CBF0F4D814FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LuaGameDebugerDemo";
+			target = 49C29BF29F2883A1C0472397A63FDA25 /* Pods-LuaGameDebugerDemo */;
+			targetProxy = F36CB58124D7E625D8E9C4E08577FA37 /* PBXContainerItemProxy */;
+		};
+		E0CFEAF591B3A91E378CD844F855CE80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
-			target = 23D7DA26C40DEA0CBB49A7825C7CD4F1 /* CocoaAsyncSocket */;
-			targetProxy = 231A45800E83381E3EB20D2327B8E0FA /* PBXContainerItemProxy */;
-		};
-		D88A4D9F7A22F426641AE251E36AE30B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LuaGameDebugerDemo";
-			target = 0AFCF295FDE46798DC8CAA92C73EC188 /* Pods-LuaGameDebugerDemo */;
-			targetProxy = 873FA6BBC7F11E07894E789DC374115F /* PBXContainerItemProxy */;
-		};
-		E2738C9C6AB9404281FC0219188A3F4D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LuaGameDebugerDemo";
-			target = 0AFCF295FDE46798DC8CAA92C73EC188 /* Pods-LuaGameDebugerDemo */;
-			targetProxy = D9CAC0F6DEC6A41FB8BB71A108521DDD /* PBXContainerItemProxy */;
+			target = 8128A44AB077AE2F0C1EEAA983D5271D /* CocoaAsyncSocket */;
+			targetProxy = 476F889C2A16B7F4933EEB28B6EB5293 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+		05248146BAD38F021F3A78D8B38D7794 /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		46F6109AA73B6BFFECC7813103661C43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08345A4D8094791FC8547AEA35B9CCC3 /* Pods-LuaGameDebugerDemoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		63CC5FA075C4C3F3557AABB173FE40C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F7BA3AC6F966F8148F66A07E49A1262 /* CocoaAsyncSocket.xcconfig */;
+			baseConfigurationReference = 7744AD90F0454727EC52C70AC0A01A1C /* CocoaAsyncSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -526,9 +545,31 @@
 			};
 			name = Release;
 		};
-		79406777C2D989DA7E2D6992039036C3 /* Debug */ = {
+		07EB0BF2E11405234658814BC76AB76C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F7BA3AC6F966F8148F66A07E49A1262 /* CocoaAsyncSocket.xcconfig */;
+			baseConfigurationReference = B14993DB7EF2D11D7C06D893F2F3D1E3 /* Pods-LuaGameDebugerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1532DAFF0509FBE2B535931459597A47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7744AD90F0454727EC52C70AC0A01A1C /* CocoaAsyncSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -549,30 +590,7 @@
 			};
 			name = Debug;
 		};
-		84714C3562AD7423B203257C7D7916E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28C214E727773423C6B53B2AF3491812 /* Pods-LuaGameDebugerDemoTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -625,7 +643,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -635,62 +653,40 @@
 			};
 			name = Debug;
 		};
-		8807378C339E5FD57687CE006F1AAA18 /* Release */ = {
+		3C73910DAF42FF6C5A55EFE00B94893F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B14993DB7EF2D11D7C06D893F2F3D1E3 /* Pods-LuaGameDebugerDemo.release.xcconfig */;
+			baseConfigurationReference = 0048C768DD87594AC903E717668D7567 /* YYModel.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9637F46D0525AE821A4E11F83A80E411 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EF50DBC1CDD031DA85867CC6C85E1F7 /* Pods-LuaGameDebugerDemoTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C8859656053C9E624EB67E3FCDEC87D7 /* Release */ = {
+		42955E811776B9E110E14521AF65EEA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3A52AA7EAE6379CD3FFA5D7F44E8A13 /* Pods-LuaGameDebugerDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -703,17 +699,61 @@
 			};
 			name = Release;
 		};
-		EFC0307698CD3EDC7B777BFDF411DB54 /* Debug */ = {
+		4B731A337DF5C8AD25516F136B68FE8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CA64E1B3DD8C4A3D0713476AA45A0D0 /* Pods-LuaGameDebugerDemo.debug.xcconfig */;
+			baseConfigurationReference = 0048C768DD87594AC903E717668D7567 /* YYModel.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6525F3878AC240BBB81CAE71FAA905FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C214E727773423C6B53B2AF3491812 /* Pods-LuaGameDebugerDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		710C96EB370F6B3EDCB666B9E5648BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08345A4D8094791FC8547AEA35B9CCC3 /* Pods-LuaGameDebugerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -725,50 +765,159 @@
 			};
 			name = Debug;
 		};
+		F469FE4547F9FEFEA91AF82949880F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA64E1B3DD8C4A3D0713476AA45A0D0 /* Pods-LuaGameDebugerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5F77B1388034E21BBC5AAA94B6B7D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF50DBC1CDD031DA85867CC6C85E1F7 /* Pods-LuaGameDebugerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0446DC5DABC74256F3062BC130B78B00 /* Build configuration list for PBXNativeTarget "Pods-LuaGameDebugerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710C96EB370F6B3EDCB666B9E5648BF5 /* Debug */,
+				42955E811776B9E110E14521AF65EEA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC3BC967CFF967AE8F47105A9EE50F8 /* Build configuration list for PBXNativeTarget "Pods-LuaGameDebugerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F77B1388034E21BBC5AAA94B6B7D34 /* Debug */,
+				6525F3878AC240BBB81CAE71FAA905FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC5203DF0C452999525B2D824F560A0 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1532DAFF0509FBE2B535931459597A47 /* Debug */,
+				05248146BAD38F021F3A78D8B38D7794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
-				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50E8A7C4E48EB95AB7EA537AD4160F18 /* Build configuration list for PBXNativeTarget "Pods-LuaGameDebugerDemo" */ = {
+		4ED894191F1AC0659DB1E481396A53D3 /* Build configuration list for PBXNativeTarget "Pods-LuaGameDebugerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFC0307698CD3EDC7B777BFDF411DB54 /* Debug */,
-				8807378C339E5FD57687CE006F1AAA18 /* Release */,
+				F469FE4547F9FEFEA91AF82949880F2C /* Debug */,
+				07EB0BF2E11405234658814BC76AB76C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DC188728344830FDEE496E313B75E77 /* Build configuration list for PBXNativeTarget "Pods-LuaGameDebugerDemoUITests" */ = {
+		A5D24E1154DBD6A252BE7A2F4E8E402A /* Build configuration list for PBXNativeTarget "YYModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46F6109AA73B6BFFECC7813103661C43 /* Debug */,
-				C8859656053C9E624EB67E3FCDEC87D7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6E720E377F01A6230162E58B96EA78A5 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				79406777C2D989DA7E2D6992039036C3 /* Debug */,
-				63CC5FA075C4C3F3557AABB173FE40C8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B83103939487A11644726FCC793EEA8F /* Build configuration list for PBXNativeTarget "Pods-LuaGameDebugerDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9637F46D0525AE821A4E11F83A80E411 /* Debug */,
-				84714C3562AD7423B203257C7D7916E7 /* Release */,
+				4B731A337DF5C8AD25516F136B68FE8C /* Debug */,
+				3C73910DAF42FF6C5A55EFE00B94893F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
