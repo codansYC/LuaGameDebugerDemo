@@ -44,7 +44,7 @@ typedef NS_ENUM(NSUInteger, Command) {
 
 - (void)connect {
     NSError *error;
-    [self.socket connectToHost:@"172.16.232.68" onPort:8090 error:&error];
+    [self.socket connectToHost:@"192.168.199.129" onPort:8090 error:&error];
 }
 
 - (void)login {
